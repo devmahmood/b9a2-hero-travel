@@ -554,6 +554,186 @@ ul {
     width: 100%;
 }
 
-.news-letter-content hr {
+.news-letter-img hr {
     background-color: #FF5400;
+}
+
+/* Extra Section */
+.wj-content {
+    border: 1px solid #FF5400;
+    border-radius: 20px;
+    padding-left: 100px;
+    background: rgba(233, 68, 68, 0.05);
+}
+.wj-service {
+    max-width: 75%;
+    width: 75%;
+    margin: 1.5% 1.2% 1.5% 1.0%;
+}
+
+.wj-servicesection {
+    display: flex;
+}
+
+.wj-serimage {
+    display: inline-block;
+    max-width: 75%;
+    width: 75%;
+    height: auto;
+    padding-bottom: 5%;
+
+}
+
+.wj-service div {
+    display: inline-block;
+    border: 10%;
+    max-width: 100%;
+    padding: 2%;
+}
+
+.wj-service p {
+    font-size: 1.5vmax;
+
+}
+
+.wj-service .b {
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+
+/* Footer Section */
+footer {
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 100px 300px;
+}
+
+.footer-tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+footer p {
+    margin-bottom: 1.5rem;
+}
+
+footer .icons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+footer hr {
+    margin: 2rem auto;
+}
+
+/* nobile responsive styles here */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 1rem;
+    }
+
+    .nav-tittle h2 {
+        font-size: 2rem;
+    }
+
+    .main-menu ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    .main-menu i {
+        display: block;
+    }
+
+    .main-menu i:hover+ul {
+        display: block;
+        align-items: flex-start;
+    }
+
+    .banner {
+        padding: 1.25rem;
+        margin: 0 auto;
+    }
+
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner .place-finder {
+        flex-direction: column;
+        gap: .75rem;
+        justify-content: center;
+    }
+
+    .popular-tour-conteiner {
+        flex-direction: column;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    .destination-conteiner {
+        padding: 1rem;
+    }
+
+    .destination-images {
+        gap: 1rem;
+        grid-template-areas: 'maldives' 'indonesia' 'srilanka' 'north-america' 'kashmir' 'bangladesh' 'bandarban';
+    }
+
+    .destination-images img {
+        max-height: 200px;
+    }
+
+    .why-us-conteiner {
+        padding: 1rem;
+    }
+
+    .reason1,
+    .reason2,
+    .reason3 {
+        width: 100%;
+    }
+
+    .deals-conteiner {
+        padding: 1rem;
+    }
+
+    .deals-item1,
+    .deals-item2,
+    .deals-item3 {
+        padding: 200px 20px 20px;
+    }
+
+    .deals-content {
+        padding: 1rem;
+    }
+
+    .deals-conteiner>button {
+        display: none;
+    }
+
+    .airlines-conteiner {
+        padding: 1rem;
+    }
+
+    .airlnes {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .perfect-place-conteiner,
+    .news-letter-conteiner {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .wj-servicesection {
+        flex-direction: column;
+    }
+    footer {
+        padding: 2rem;
+    }
 }
