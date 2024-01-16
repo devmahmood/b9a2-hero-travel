@@ -149,3 +149,123 @@ nav {
 .banner button {
     width: 100%;
 }
+
+/* Popular Tour Section */
+.popular-tour-conteiner {
+    display: flex;
+    gap: 3rem;
+    margin: 4rem auto;
+}
+
+.popular-tour-content {
+    height: 100%;
+}
+
+.popular-tour-content h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tour-content p,
+ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 1.5rem auto;
+}
+
+.popular-tour-content ul {
+    width: 80%;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 1.5rem auto;
+    margin-left: 2rem;
+}
+
+.popular-tour-img {
+    width: 100%;
+}
+
+.popular-tour-img img {
+    width: 100%;
+}
+
+/* Destination section styles */
+.destination-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.destination-content h2 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.destination-content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 2rem auto;
+}
+
+/* grid areas */
+.maldives {
+    grid-area: maldives;
+}
+
+.indonesia {
+    grid-area: indonesia;
+}
+
+.srilanka {
+    grid-area: srilanka;
+}
+
+.north-america {
+    grid-area: north-america;
+}
+
+.kashmir {
+    grid-area: kashmir;
+}
+
+.bangladesh {
+    grid-area: bangladesh;
+}
+
+.bandarban {
+    grid-area: bandarban;
+}
+
+.destination-images {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas: 'maldives maldives maldives maldives maldives maldives indonesia indonesia indonesia indonesia indonesia indonesia'
+        'srilanka srilanka srilanka srilanka north-america north-america north-america north-america north-america kashmir kashmir kashmir'
+        'bangladesh bangladesh bangladesh bangladesh bangladesh bandarban bandarban bandarban bandarban bandarban bandarban bandarban';
+}
+
+.destination-img {
+    position: relative;
+}
+
+.destination-img h3 {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    color: #FFFFFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.destination-img img {
+    width: 100%;
+    border-radius: 20px;
+}
